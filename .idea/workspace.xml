@@ -9,8 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="477e9e04-7b9f-45a9-98dd-4319417e234a" name="Default Changelist" comment="Ajout de base">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="477e9e04-7b9f-45a9-98dd-4319417e234a" name="Default Changelist" comment="ajout">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +30,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="ajout_antoine" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -63,7 +64,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.14184397" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
@@ -81,6 +82,17 @@
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Code_Finale" />
       <option name="VM_PARAMETERS" value="--module-path &quot;C:\javaFx15\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -128,7 +140,7 @@
       <workItem from="1635336745021" duration="5000" />
       <workItem from="1642000745150" duration="1190000" />
       <workItem from="1642002081580" duration="961000" />
-      <workItem from="1643733942670" duration="2337000" />
+      <workItem from="1643733942670" duration="2751000" />
     </task>
     <task id="LOCAL-00001" summary="Ajout de base">
       <created>1643734385364</created>
@@ -137,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643734385364</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ajout">
+      <created>1643736608531</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1643736608531</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,7 +173,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="ajout_antoine" />
+                        <option value="ajout" />
                       </list>
                     </value>
                   </entry>
@@ -168,6 +187,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Ajout de base" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout de base" />
+    <MESSAGE value="ajout" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout" />
   </component>
 </project>
