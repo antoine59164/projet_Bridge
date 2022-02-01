@@ -26,6 +26,8 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Objects;
 
+
+
 public class Main extends Application {
 
 
@@ -44,8 +46,7 @@ public class Main extends Application {
         Pane root = new Pane();
         root.setId("pane");
         Scene scene = new Scene(root, 1920, 1080);
-
-        scene.getStylesheets().addAll(this.getClass().getResource("style.css").toExternalForm());
+        scene.getStylesheets().addAll(this.getClass().getResource("/Style/style.css").toExternalForm());
 
 
         // Création des hBox et VBox
@@ -108,7 +109,7 @@ public class Main extends Application {
                 root1.setId("root");
                 Scene scene1 = new Scene(root1);
 
-                scene1.getStylesheets().addAll(this.getClass().getResource("style1.css").toExternalForm());
+                scene1.getStylesheets().addAll(this.getClass().getResource("/Style/style1.css").toExternalForm());
 
                 VBox vBox1 = new VBox();
                 HBox hBox1 = new HBox();
@@ -174,7 +175,7 @@ public class Main extends Application {
                                 Pane root2 = new Pane();
                                 Stage stage2 = new Stage();
                                 Scene scene2 = new Scene(root2, 1920, 1080);
-                                scene2.getStylesheets().addAll(Objects.requireNonNull(this.getClass().getResource("style2.css")).toExternalForm());
+                                scene2.getStylesheets().addAll(Objects.requireNonNull(this.getClass().getResource("/Style/style2.css")).toExternalForm());
                                 stage2.setTitle("Partie");
                                 root2.setId("root");
 
@@ -372,7 +373,7 @@ public class Main extends Application {
                                         Scene sceneQuit = new Scene(rootQuit, 500, 500);
                                         stageQuit.setTitle("Partie terminée !");
                                         rootQuit.setId("root");
-                                        sceneQuit.getStylesheets().addAll(this.getClass().getResource("style1.css").toExternalForm());
+                                        sceneQuit.getStylesheets().addAll(this.getClass().getResource("/Style/style1.css").toExternalForm());
                                         if (partie.getScoreEO() < partie.getScoreNS()) {
 
                                             int idJoueurGagnant1 = jN.getIdJoueur();
